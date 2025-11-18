@@ -163,6 +163,9 @@
                     </main>
 
                     <footer class="py-16 text-center text-sm text-black dark:text-white/70">
+                        <a href="{{ route('redirect.line') }}"><img style="width:40px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/LINE_logo.svg/2048px-LINE_logo.svg.png"/></a>
+                    </footer>
+                    <footer class="py-16 text-center text-sm text-black dark:text-white/70">
                         Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
                     </footer>
                 </div>
